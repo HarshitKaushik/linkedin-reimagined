@@ -1,0 +1,22 @@
+<div class="in-navbar">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand in-logo-reponsive " href="#">
+          <img src="../../assets/in75.png">
+        </a>
+      </div>
+      <ul class="nav navbar-nav" *ngIf="navbarLeftMenuListObj && fas">
+        <li *ngFor="let menu of navbarLeftMenuListObj" [ngClass]="{ 'active': menu.id === defaultMenuChoice}">
+          <a href="#"><fa-icon class="navbar-fa-icon" [icon]="fas[menu.fontAwesomeIcon]"></fa-icon>{{menu.name}}</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav pull-right" *ngIf="navbarRightMenuListObj && fas">
+        <li *ngFor="let menu of navbarRightMenuListObj">
+          <a href="#">
+            <fa-icon class="navbar-fa-icon" [icon]="fas[menu.fontAwesomeIcon]"></fa-icon>{{menu.name}}</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

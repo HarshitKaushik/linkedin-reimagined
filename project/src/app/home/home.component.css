@@ -1,0 +1,14 @@
+.navbar-brand {
+  padding: 0px 15px;
+}
+.in-logo-reponsive img {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.navbar-fa-icon {
+  padding: 10px;
+}
