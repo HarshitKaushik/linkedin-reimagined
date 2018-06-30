@@ -1,2 +1,17 @@
-<div class="row login-bottom-div">
+<div class="row login-bottom-div" *ngIf="footer">
+  <div class="col-md-1 inside-div-footer">&nbsp;</div>
+  <div class="col-md-5 inside-div-footer">
+    <app-login-footer [loginFooter]="footer.leftSideAbove"></app-login-footer>
+    <app-login-footer [loginFooter]="footer.leftSideBelow"></app-login-footer>
+  </div>
+  <div class="col-md-5 inside-div-footer">
+    <app-login-footer [loginFooter]="footer.rightSideAbove"></app-login-footer>
+    <app-login-footer [loginFooter]="footer.rightSideBelow"></app-login-footer>
+  </div>
+  <div class="col-md-1 inside-div-footer">&nbsp;</div>
+</div>
+<div class="row copyright">
+  <p class="text-center">
+    © LinkedIn ReImagined 2018 https://github.com/HarshitKaushik
+  </p>
 </div>

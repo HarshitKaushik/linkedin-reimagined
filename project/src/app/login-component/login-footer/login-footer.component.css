@@ -1,0 +1,19 @@
+.links-container {
+  padding: 10px 5px;
+}
+.links-container span {
+  margin: 0px 40px;
+}
+.link-topic {
+  font-weight: 400;
+  font-size: 14px;
+}
+.link-list ul, li {
+  display: inline;
+}
+.link-list li {
+  padding-left: 6px;
+  padding-right: 6px;
+  border-right: 1px solid black;
+  font-size: 12px;
+}

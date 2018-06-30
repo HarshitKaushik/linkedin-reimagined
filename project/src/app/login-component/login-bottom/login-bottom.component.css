@@ -1,6 +1,14 @@
 .login-bottom-div {
   background: #F8F8F8;
   width: auto;
-  height: 300px;
+  height: 400px;
   max-height: 25vh;
+}
+.inside-div-footer {
+  height: 400px;
+  max-height: 25vh;
+}
+.copyright {
+  background: #F8F8F8;
+  padding: 4px;
 }

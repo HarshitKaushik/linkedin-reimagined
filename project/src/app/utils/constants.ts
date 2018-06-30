@@ -41,3 +41,76 @@ export const navbarRightMenuList = [{
   pullRight: true,
   routePath: '/login'
 }];
+
+export const footerLinks = {
+  leftSideAbove: {
+    title: 'General',
+    links: [
+      {
+        name: 'Sign Up'
+      }, {
+        name: 'Help Center'
+      }, {
+        name: 'About'
+      }, {
+        name: 'Press'
+      }, {
+        name: 'Blog'
+      }, {
+        name: 'Careers'
+      }, {
+        name: 'Developers'
+      }
+    ]
+  },
+  leftSideBelow: {
+    title: 'Browse LinkedIn',
+    links: [
+      {
+        name: 'Learning'
+      }, {
+        name: 'Jobs'
+      }, {
+        name: 'Salary'
+      }, {
+        name: 'Mobile'
+      }, {
+        name: 'ProFinder'
+      }
+    ]
+  },
+  rightSideAbove: {
+    title: 'Business Solutions',
+    links: [
+      {
+        name: 'Talent'
+      }, {
+        name: 'Marketing'
+      }, {
+        name: 'Sales'
+      }, {
+        name: 'Learning'
+      }
+    ]
+  },
+  rightSideBelow: {
+    title: 'Directories',
+    links: [
+      {
+        name: 'Members'
+      }, {
+        name: 'Jobs'
+      }, {
+        name: 'Pulse'
+      }, {
+        name: 'Companies'
+      }, {
+        name: 'Salaries'
+      }, {
+        name: 'Universities'
+      }, {
+        name: 'Top Jobs'
+      }
+    ]
+  }
+};

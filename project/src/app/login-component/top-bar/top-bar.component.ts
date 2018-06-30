@@ -27,7 +27,6 @@ export class TopBarComponent implements OnInit {
       this.toastr.error(MSG.error.WRONG_CREDENTIALS);
     } else {
       this.router.navigateByUrl('/home');
-      this.toastr.success(MSG.success.LOGIN_SUCCESS);
     }
   }
 
