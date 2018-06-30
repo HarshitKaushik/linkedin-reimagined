@@ -1,0 +1,26 @@
+.in-logo-reponsive img {
+  height: auto;
+  width: auto;
+  max-height: 50px;
+  max-width: 120px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.top-bar-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.top-bar-form input {
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 40px;
+  width: 200px;
+  padding-left: 10px;
+  font-size: 13px;
+}
+.top-bar-form span {
+  margin-left: 30px;
+  padding-left: 20px;
+}

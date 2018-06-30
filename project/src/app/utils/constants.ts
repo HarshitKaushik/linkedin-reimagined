@@ -33,4 +33,9 @@ export const navbarRightMenuList = [{
   name: 'Settings',
   fontAwesomeIcon: 'faCogs',
   pullRight: true
+}, {
+  id: 7,
+  name: 'Log Out',
+  fontAwesomeIcon: 'faAmbulance',
+  pullRight: true
 }];
