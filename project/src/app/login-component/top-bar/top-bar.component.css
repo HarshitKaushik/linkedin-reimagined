@@ -1,3 +1,6 @@
+.row {
+  height: 66px;
+}
 .in-logo-reponsive img {
   height: auto;
   width: auto;

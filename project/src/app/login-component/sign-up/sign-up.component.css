@@ -1,0 +1,49 @@
+.sign-up-box {
+  height: 100%;
+  width: 400px;
+  padding: 0 0 24px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: #EDF0F3;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+}
+.sign-up-title {
+  width: 100%;
+  max-height: 50px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.sign-up-subtitle {
+  width: 100%;
+  max-height: 50px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.form-group label {
+  width: 400px;
+  margin: 0 auto;
+  padding: 5px 35px;
+  font-weight: 100;
+}
+.form-group input {
+  width: 330px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.sign-up-button {
+  margin: 5px 35px;
+}

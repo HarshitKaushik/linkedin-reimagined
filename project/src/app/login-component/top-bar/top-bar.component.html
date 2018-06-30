@@ -7,12 +7,12 @@
         </a>
       </div>
       <div class="col-md-7">
-        <form class="navbar-form top-bar-form">
+        <form class="navbar-form top-bar-form" #signInForm="ngForm">
           <div class="form-group">
-            <input type="text" placeholder="Enter username or email...">
-            <input type="password" placeholder="Enter password...">
+            <input class="form-control" type="text" placeholder="Enter username or email..." name="emailOrUserName" [(ngModel)]="emailOrUserName" required>
+            <input class="form-control" type="password" placeholder="Enter password..." name="password" [(ngModel)]="password" required>
           </div>
-          <button class="btn btn-default navbar-btn top-bar-btn">Sign In</button>
+          <button class="btn btn-default navbar-btn top-bar-btn" (click)="submitLogin(); signInForm.reset();">Sign In</button>
           <span class="">
             <a>Forgot Password?</a>
           </span>

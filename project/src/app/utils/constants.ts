@@ -32,10 +32,12 @@ export const navbarRightMenuList = [{
   id: 6,
   name: 'Settings',
   fontAwesomeIcon: 'faCogs',
-  pullRight: true
+  pullRight: true,
+  routePath: '/home'
 }, {
   id: 7,
   name: 'Log Out',
   fontAwesomeIcon: 'faAmbulance',
-  pullRight: true
+  pullRight: true,
+  routePath: '/login'
 }];

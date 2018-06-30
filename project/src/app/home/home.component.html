@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand in-logo-reponsive " href="#">
-          <img src="../../assets/in75.png">
+          <img src="../../assets/logo_rect.png">
         </a>
       </div>
       <ul class="nav navbar-nav" *ngIf="navbarLeftMenuListObj && fas">
@@ -13,7 +13,7 @@
       </ul>
       <ul class="nav navbar-nav pull-right" *ngIf="navbarRightMenuListObj && fas">
         <li *ngFor="let menu of navbarRightMenuListObj">
-          <a href="#">
+          <a [routerLink]="menu.routePath">
             <fa-icon class="navbar-fa-icon" [icon]="fas[menu.fontAwesomeIcon]"></fa-icon>{{menu.name}}</a>
         </li>
       </ul>
