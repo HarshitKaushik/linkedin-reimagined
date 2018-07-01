@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { MyNetworkComponent } from './my-network/my-network.component';
 import { LoginComponentModule } from './login-component/login-component.module';
+import { HomeViewComponentModule } from './home-view-component/home-view-component.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { LoginComponentModule } from './login-component/login-component.module';
     SharedModule,
     AppRoutingModule,
     LoginComponentModule,
+    HomeViewComponentModule,
     ToastrModule.forRoot(),
     BrowserAnimationsModule
   ],

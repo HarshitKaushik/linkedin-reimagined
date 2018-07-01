@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { navbarLeftMenuList, navbarRightMenuList } from './../utils/constants';
 import * as fas from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -13,12 +14,13 @@ export class HomeComponent implements OnInit {
   navbarRightMenuListObj: any;
   fas: any;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
     this.navbarLeftMenuListObj = navbarLeftMenuList;
     this.navbarRightMenuListObj = navbarRightMenuList;
     this.fas = fas;
+    this.router.navigateByUrl('/home/feed');
   }
 
 }

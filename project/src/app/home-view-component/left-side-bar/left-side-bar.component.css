@@ -1,0 +1,44 @@
+.stats-widget {
+  height: 320px;
+  background: #F8F8F8;
+  border: 3px solid white;
+  margin: 2px 2px;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+}
+.empty-side-bar {
+  height: 600px;
+  max-height: 50vh;
+  background: #F8F8F8;
+  border-radius: 14px;
+  -moz-border-radius: 14px;
+	-webkit-border-radius: 14px;
+}
+.title-box {
+  height: 80px;
+  text-align: center;
+  border-bottom: #7E7E7E thin solid;
+}
+.stats-widget-title {
+  line-height: 50px;
+}
+.stats-widget-title h4 {
+  color: #4C4C4C;
+  font-weight: 400;
+  padding: 20px 20px;
+  margin-left: 40px;
+}
+.my-stats {
+  text-align: center;
+}
+.my-stats span {
+  font-size: 24px;
+  color: #4C4C4C;
+  font-weight: 400;
+  display: inline-block;
+  margin: 15px 0px;
+}
+.my-stats p {
+  margin: 0 0 0px;
+}

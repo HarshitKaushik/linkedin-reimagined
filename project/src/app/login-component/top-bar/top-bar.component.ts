@@ -9,7 +9,7 @@ import { MSG } from './../../utils/messages';
   styleUrls: ['./top-bar.component.css']
 })
 export class TopBarComponent implements OnInit {
-  adminName = 'admin@linkedin.com';
+  adminName = 'harshit@linkedin.com';
   adminPassword = 'password';
   emailOrUserName: string;
   password: string;
